@@ -7,7 +7,7 @@ import { userListState, pageState, nationalityState, searchFilterState } from '@
 import { useQuery } from 'react-query';
 import { UserType } from '@/types/Types';
 import { CountryList } from '@/constants/AppConstants';
-import { AlertMessage } from '@/components/AlertMessage';
+import { AlertMessage } from '@/components/AlertMessage/AlertMessage';
 import UserCardContainer from '../UserCardContainer/UserCardContainer';
 import UserModalContainer from '../UserModalContainer/UserModalContainer';
 import { useAppContext } from '@/context/appContext';
