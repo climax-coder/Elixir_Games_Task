@@ -7,7 +7,7 @@ import { MantineProvider } from '@mantine/core';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { RecoilRoot } from 'recoil';
-import { AppContext } from './appContext';
+import { AppContext } from '@/context/appContext';
 import WebWrapper from '@/containers/WebWrapper/WebWrapper';
 
 export default function App({ Component, pageProps }: AppProps) {

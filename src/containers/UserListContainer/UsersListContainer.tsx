@@ -10,7 +10,7 @@ import { CountryList } from '@/constants/AppConstants';
 import { AlertMessage } from '@/components/AlertMessage';
 import UserCardContainer from '../UserCardContainer/UserCardContainer';
 import UserModalContainer from '../UserModalContainer/UserModalContainer';
-import { useAppContext } from '@/pages/appContext';
+import { useAppContext } from '@/context/appContext';
 import { useDisclosure } from '@mantine/hooks';
 import classes from './UserListContainer.module.css';
 

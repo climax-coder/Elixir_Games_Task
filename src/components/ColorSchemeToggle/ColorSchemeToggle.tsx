@@ -3,7 +3,7 @@
 import React from 'react';
 import { ActionIcon, Tooltip } from '@mantine/core';
 import { IconSunHigh, IconMoon } from '@tabler/icons-react';
-import { useAppContext } from '@/pages/appContext';
+import { useAppContext } from '@/context/appContext';
 
 function ColorSchemeToggle() {
   const appContext = useAppContext();
@@ -14,7 +14,6 @@ function ColorSchemeToggle() {
       variant="outline"
       color={dark ? 'yellow' : 'blue'}
       onClick={() => appContext?.onChange(dark ? 'light' : 'dark')}
-      // title="Toggle color scheme"
     >
       {dark ? (
         <Tooltip label="Light mode">

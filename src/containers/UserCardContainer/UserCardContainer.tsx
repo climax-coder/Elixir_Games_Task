@@ -1,7 +1,7 @@
 import React from 'react';
 import { UserType } from '@/types/Types';
 import { Avatar, Text, Card, Container, Button } from '@mantine/core';
-import { useAppContext } from '@/pages/appContext';
+import { useAppContext } from '@/context/appContext';
 
 type UserCardContainerProps = {
   user: UserType;
