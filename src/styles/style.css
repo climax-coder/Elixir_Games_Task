@@ -1,0 +1,5 @@
+@media (max-width: em(568px)) {
+  .input-field {
+    width: 100%;
+  }
+}
